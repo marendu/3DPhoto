@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\Administrator\bin;D:\Git\mingw64\bin;D:\Git\usr\local\bin;D:\Git\usr\bin;D:\Git\usr\bin;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Users\Administrator\bin;D:\ruby\Ruby23-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\Java\jdk1.8.0_65\jre\bin;D:\apache-maven-3.3.3\bin;D:\Gradle\gradle-4.6\bin;D:\Git\cmd;D:\mongdb\4.0\bin;C:\Program Files (x86)\Common Files\Thunder Network\KanKan\Codecs;C:\Users\Administrator\AppData\nvm;C:\Program Files\nodejs;F:\XAMPP\mysql\bin;C:\Users\Administrator\.windows-build-tools\python27;D:\Microsoft VS Code\bin;C:\Users\Administrator\AppData\nvm;C:\Program Files\nodejs;D:\Git\usr\bin\vendor_perl;D:\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.8.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Administrator\AppData\Local\Yarn\Cache\v6\npm-ms-2.0.0-5608aeadfc00be6c2901df5f9861788de0d597c8-integrity\node_modules\ms\index.js' -> 'C:\Users\Administrator\Desktop\marenduStudyText\旋转\nodeSever\node_modules\koa\node_modules\ms\index.js'
+
+npm manifest: 
+  {
+    "name": "nodesever",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "koa": "^2.11.0",
+      "koa-router": "^8.0.8",
+      "koa-static-cache": "^5.1.2",
+      "koa2-cors": "^2.0.6"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
