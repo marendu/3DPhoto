@@ -171,7 +171,7 @@
 		<css-doodle use="var(--rule)">
 	
 		</css-doodle>
-		<audio id="bgMusic" src="http://music.163.com/song/media/outer/url?id=436514312.mp3"  autoplay = "autoplay"></audio>
+		<audio id="bgMusic" src="http://music.163.com/song/media/outer/url?id=436514312.mp3"  autoplay = "autoplay"  loop="loop"></audio>
 		<div id="container"></div>
 		<div id="menu">
 			<button id="table">心形</button>
@@ -500,14 +500,8 @@
 				renderer.render( scene, camera );
 
 			}
-
-		</script>
-	</body>
-
-		<script>
-	function autoPlayAudio() {
+			function autoPlayAudio() {
         wx.config({
-            // 配置信息, 即使不正确也能使用 wx.ready
             debug: false,
             appId: '',
             timestamp: 1,
@@ -522,5 +516,7 @@
     };
 // 解决ios音乐不自动播放的问题
 		autoPlayAudio();
-	</script>
+		</script>
+	</body>
+	
 </html>
