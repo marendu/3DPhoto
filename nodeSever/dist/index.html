@@ -286,10 +286,16 @@
 							let  Xposition = positionX.split('-')
 							let  Yposition = positionY.split('-')
 							if(el_i!==null){
+								
+								targets.table[el_i].position.x = ( x* 180 ) - 1000;
+								targets.table[el_i].position.y = - ( y * 180 ) + 990;
+								if(el_i===(Xposition[0])/5&&targets.table[el_i].position.z){
+									targets.table[el_i].position.z = 0
+									transform( targets.table, 2000 );
+									return
+								}
 								targets.table[el_i].position.z = 0
-									targets.table[el_i].position.x = ( x* 180 ) - 1000;
-									targets.table[el_i].position.y = - ( y * 180 ) + 990;
-							}
+						}
 									// 中心 223-6
 								x = Xposition[1]
 								y = Yposition[1]
